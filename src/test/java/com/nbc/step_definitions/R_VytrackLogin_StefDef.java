@@ -21,9 +21,7 @@ public class R_VytrackLogin_StefDef {
     @When("user enters the driver information")
     public void user_enters_the_driver_information() {
 
-       // loginpage.usernameInput.sendKeys(ConfigurationReader.getProperty("driver_username"));
-        //loginpage.passwordInput.sendKeys(ConfigurationReader.getProperty("driver_password"));
-        //loginpage.loginBtn.click();
+
         loginPage.login(ConfigurationReader.getProperty("driver_username"),ConfigurationReader.getProperty("driver_password"));
 
 
