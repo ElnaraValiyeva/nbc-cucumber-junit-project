@@ -13,8 +13,11 @@ public class R_DashboardPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy()
+    @FindBy(css =".title.title-level-1")
     public List<WebElement> allTopModules;
+
+    @FindBy(css = "#user-menu>a")
+    public WebElement userInf0;
 
 
 }

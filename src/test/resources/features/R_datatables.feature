@@ -44,7 +44,7 @@ Feature: Examples for DataTable
 
 
 
-
+  @vytrackDataTable
   Scenario: Login with given information
     Given user is on the login page
     When user enters below credentials
